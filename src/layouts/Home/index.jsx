@@ -8,7 +8,7 @@ function HomeLayout() {
 
   useEffect(() => {
     gsap.to(LoaderAnimate.current, {
-      width: '0%',
+      opacity: '0',
       delay: 5,
       ease: Expo.easeInOut,
     });
