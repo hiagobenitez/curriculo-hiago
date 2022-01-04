@@ -15,7 +15,7 @@ const GlobalStyles = createGlobalStyle`
   }
   ::-webkit-scrollbar {
   background: #020005;
-  width: 12px;
+  width: 8px;
 }
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg, rgba(102, 54, 221, 0) 0%, #6636DD 100%);
