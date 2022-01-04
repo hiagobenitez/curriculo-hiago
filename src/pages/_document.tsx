@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import React from 'react';
 import Document, {
   DocumentInitialProps,
@@ -43,10 +44,12 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
+
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"
             rel="stylesheet"
           />
+
           <script src="js/app.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
