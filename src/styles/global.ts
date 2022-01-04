@@ -15,10 +15,10 @@ const GlobalStyles = createGlobalStyle`
   }
   ::-webkit-scrollbar {
   background: #000200;
-  width: 8px;
+  width: 3px;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, rgba(40, 208, 172, 0) 0%, #2EEB2E 100%);
+  background: #2EEB2E ;
   border-radius: 6px;
 }
   `;
