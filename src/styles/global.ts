@@ -14,11 +14,11 @@ const GlobalStyles = createGlobalStyle`
     overflow-x: hidden;
   }
   ::-webkit-scrollbar {
-  background: #020005;
+  background: #000200;
   width: 8px;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, rgba(102, 54, 221, 0) 0%, #6636DD 100%);
+  background: linear-gradient(180deg, rgba(40, 208, 172, 0) 0%, #2EEB2E 100%);
   border-radius: 6px;
 }
   `;
